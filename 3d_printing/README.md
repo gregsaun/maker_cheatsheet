@@ -50,13 +50,22 @@ Note that on latest Prusa i3 MK2(s) firmware the M500 command is not persistent.
 
 Here are common parameters for applying selective infill in Fusion 360 with Slic3r Prusa Edition 1.37.1.
 
+#### Horizontal to heated bed
+
 | Parameter | Expression | Value |
 |:---------:|:----------:|:-----:|
 | layer_height          | 0.20mm | 0.20 |
-| num_perimeters        | 3 | 3 |
-| num_top_bottom        | 5 | 5 |
 | extrusion_width       | 0.45mm | 0.45 |
-| selective_infill_vertical_height   | 0.101mm | 0.101 |
+| num_perimeters        | 3 | 3 |
 | selective_infill_horizontal_height | layer_height + 0.001 | 0.201 |
 | selective_infill_to_perimeter      | (num_perimeters + 2.5) * extrusion_width | 2.475 |
+
+
+#### Vertical to heated bed
+
+| Parameter | Expression | Value |
+|:---------:|:----------:|:-----:|
+| layer_height          | 0.20mm | 0.20 |
+| num_top_bottom        | 5 | 5 |
+| selective_infill_vertical_height   | 0.101mm | 0.101 |
 | selective_infill_to_top_bottom     | (num_top_bottom + 2.5) * layer_height | 1.50 |
