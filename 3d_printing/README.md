@@ -82,4 +82,5 @@ Used to put more space on top of a vertical hole and avoid cleanup after printin
 
 | Hole size | h | w | a |
 |:---:|:---:|:---:|:---:|
-| 5.3mm | layer_height + 0.001 | 3mm | 45° |
+| 4.4mm (M4) | layer_height + 0.001 | 2.6mm | 45° |
+| 5.3mm (M5) | layer_height + 0.001 | 3mm | 45° |
