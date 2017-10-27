@@ -2,7 +2,8 @@
 
 ## Table of contents
 * [Extruder Calibration](#extruder-calibration)
-* [Selective infill](#selective-infill)
+* [Selective Infill](#selective-infill)
+* [Hole Cleaning](#hole-cleaning)
 
 ## Extruder Calibration
 This is for Prusa i3 MK2s and based on a summary of [Matt's Hub article](https://mattshub.com/2017/04/19/extruder-calibration/)
@@ -48,6 +49,8 @@ Note that on latest Prusa i3 MK2(s) firmware the M500 command is not persistent.
 
 ### Selective Infill
 
+Selective infill is a technic used to put solid infill in critical places (like around a screw hole).
+
 Here are common parameters for applying selective infill in Fusion 360 with Slic3r Prusa Edition 1.37.1.
 
 #### Horizontal (compared to heated bed)
@@ -69,3 +72,14 @@ Here are common parameters for applying selective infill in Fusion 360 with Slic
 | num_top_bottom        | 5 | 5 |
 | selective_infill_vertical_height   | 0.101mm | 0.101 |
 | selective_infill_to_top_bottom     | (num_top_bottom + 2.5) * layer_height | 1.50 |
+
+
+## Hole Cleaning
+
+Used to put more space on top of a vertical hole and avoid cleanup after printing
+
+![Hole Cleaning Diagram](img/hole_cleaning_diagram.png)
+
+| Hole size | h | w | a |
+|:---:|:---:|:---:|:---:|
+| 5.3mm | layer_height + 0.001 | 3mm | 45° |
