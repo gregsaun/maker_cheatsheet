@@ -47,7 +47,7 @@ Note that on latest Prusa i3 MK2(s) firmware the M500 command is not persistent.
 1. Print again the cube and check walls are correct
 
 
-### Selective Infill
+## Selective Infill
 
 Selective infill is a technic used to put solid infill in critical places (like around a screw hole).
 
