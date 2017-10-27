@@ -2,6 +2,7 @@
 
 ## Table of contents
 * [Extruder Calibration](#extruder-calibration)
+* [Selective infill](#selective-infill)
 
 ## Extruder Calibration
 This is for Prusa i3 MK2s and based on a summary of [Matt's Hub article](https://mattshub.com/2017/04/19/extruder-calibration/)
@@ -41,5 +42,21 @@ Note that on latest Prusa i3 MK2(s) firmware the M500 command is not persistent.
 1. Get your extrusion width in slic3r : `Print Settings -> Advanced -> Extrusion width -> Default extrusion width`, for exampe `0.45mm`
 1. Get your current extrusion multiplier in slic3r : `Filament Settings -> Filament -> Filament -> Extrusion multiplier`, for example `0.99mm`
 1. Mesure each wall of the cube, for example `0.48mm`
-1. Calculate new extrusion multiplier : `(0.45/0.48) * 0.99 = 0.93
+1. Calculate new extrusion multiplier : `(0.45/0.48) * 0.99 = 0.93`
 1. Print again the cube and check walls are correct
+
+
+### Selective Infill
+
+Here are common parameters for applying selective infill in Fusion 360 with Slic3r Prusa Edition 1.37.1.
+
+| Parameter | Expression | Value |
+|:---------:|:----------:|:-----:|
+| layer_height          | 0.20mm | 0.20 |
+| num_perimeters        | 3 | 3 |
+| num_top_bottom        | 5 | 5 |
+| extrusion_width       | 0.45mm | 0.45 |
+| selective_infill_vertical_height   | 0.101mm | 0.101 |
+| selective_infill_horizontal_height | layer_height + 0.001 | 0.201 |
+| selective_infill_to_perimeter      | num_perimeters * extrusion_width + 2 * extrusion_width | 2.25 |
+| selective_infill_to_top_bottom     | num_top_bottom * layer_height + 2 * layer_height | 1.40 |
