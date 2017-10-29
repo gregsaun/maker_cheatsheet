@@ -61,7 +61,7 @@ Here are common parameters for applying selective infill in Fusion 360 with Slic
 | extrusion_width       | 0.45mm | 0.45 |
 | num_perimeters        | 3 | 3 |
 | selective_infill_horizontal_height | layer_height + 0.001 | 0.201 |
-| perimeter_thickness      | num_perimeters * extrusion_width | 2.475 |
+| perimeter_thickness      | num_perimeters * extrusion_width - 0.1 | 2.475 |
 
 
 #### Vertical (compared to heated bed)
