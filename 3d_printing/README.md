@@ -80,7 +80,8 @@ Used to put more space on top of a vertical hole and avoid cleanup after printin
 
 ![Hole Cleaning Diagram](img/hole_cleaning_diagram.png)
 
-| Hole size | h | w | a |
-|:---:|:---:|:---:|:---:|
-| 4.4mm (M4) | layer_height + 0.001 | 2.6mm | 45° |
-| 5.3mm (M5) | layer_height + 0.001 | 3mm | 45° |
+Where
+* h = layer_height
+* w = hole radius
+* a = 45°
+
