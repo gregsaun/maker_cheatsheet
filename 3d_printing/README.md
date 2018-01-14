@@ -3,7 +3,8 @@
 ## Table of contents
 * [Extruder Calibration](#extruder-calibration)
 * [Selective Infill](#selective-infill)
-* [Hole Cleaning](#hole-cleaning)
+* [Vertical Hole Cleaning](#vertical-hole-cleaning)
+* [Perfect angle](#perfect-angle)
 
 ## Extruder Calibration
 This is for Prusa i3 MK2s and based on a summary of [Matt's Hub article](https://mattshub.com/2017/04/19/extruder-calibration/)
