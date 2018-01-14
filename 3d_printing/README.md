@@ -60,7 +60,6 @@ Here are common parameters for applying selective infill in Fusion 360 with Slic
 | layer_height          | 0.20mm | 0.20 |
 | extrusion_width       | 0.45mm | 0.45 |
 | num_perimeters        | 3 | 3 |
-| selective_infill_horizontal_height | layer_height + 0.001 | 0.201 |
 | perimeters_thickness      | num_perimeters * extrusion_width - 0.1 | 1.25 |
 
 
@@ -70,13 +69,12 @@ Here are common parameters for applying selective infill in Fusion 360 with Slic
 |:---------:|:----------:|:-----:|
 | layer_height          | 0.20mm | 0.20 |
 | num_top_bottom        | 5 | 5 |
-| selective_infill_vertical_height   | 0.101mm | 0.101 |
 | top_bottom_thickness     | num_top_bottom * layer_height | 1.00 |
 
 
-## Hole Cleaning
+## Vertical Hole Cleaning
 
-Used to put more space on top of a vertical hole and avoid cleanup after printing
+Used to put more space on top of a vertical hole and avoid clean-up after printing
 
 ![Hole Cleaning Diagram](img/hole_cleaning_diagram.png)
 
@@ -84,3 +82,14 @@ Where
 * h = layer_height
 * w = hole radius
 * a = 45°
+
+
+## Perfect angle
+
+When printing angles the filament take a small short-cut resulting in a rounded angle. After several tests (in PETG), I found that this geometry is doing perfectly squared angles.
+
+![Hole Cleaning Diagram](img/perfect_angle.png)
+
+Where
+* e = extrusion width
+* a = angle (45° for a printed angle of 90°)
