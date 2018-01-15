@@ -87,9 +87,9 @@ Where
 
 ## Perfect angle
 
-When printing angles the filament take a small short-cut resulting in a rounded angle. After several tests (in PETG), I found that this geometry is doing perfectly squared angles.
+When printing angles the filament take a small short-cut resulting in a rounded angle. After several tests (in PETG), I found that this geometry is doing perfectly squared angles. This is valid for angle printed perpendicularly to the bed.
 
-![Hole Cleaning Diagram](img/perfect_angle.png)
+![Perfect Angle Diagram](img/perfect_angle.png)
 
 Where
 * e = extrusion width
