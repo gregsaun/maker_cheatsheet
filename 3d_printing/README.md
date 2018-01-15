@@ -3,7 +3,7 @@
 ## Table of contents
 * [Extruder Calibration](#extruder-calibration)
 * [Selective Infill](#selective-infill)
-* [Vertical Hole Cleaning](#vertical-hole-cleaning)
+* [Clean Vertical Hole](#clean-vertical-hole)
 * [Perfect angle](#perfect-angle)
 
 ## Extruder Calibration
@@ -73,11 +73,11 @@ Here are common parameters for applying selective infill in Fusion 360 with Slic
 | top_bottom_thickness     | num_top_bottom * layer_height | 1.00 |
 
 
-## Vertical Hole Cleaning
+## Clean Vertical Hole
 
 Used to put more space on top of a vertical hole and avoid clean-up after printing
 
-![Hole Cleaning Diagram](img/hole_cleaning_diagram.png)
+![Clean Vertical Hole Diagram](img/hole_cleaning_diagram.png)
 
 Where
 * h = layer_height
