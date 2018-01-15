@@ -4,7 +4,7 @@
 * [Extruder Calibration](#extruder-calibration)
 * [Selective Infill](#selective-infill)
 * [Clean Vertical Hole](#clean-vertical-hole)
-* [Perfect angle](#perfect-angle)
+* [Perfect Angle](#perfect-angle)
 
 ## Extruder Calibration
 This is for Prusa i3 MK2s and based on a summary of [Matt's Hub article](https://mattshub.com/2017/04/19/extruder-calibration/)
@@ -85,7 +85,7 @@ Where
 * a = 45°
 
 
-## Perfect angle
+## Perfect Angle
 
 When printing angles the filament take a small short-cut resulting in a rounded angle. After several tests (in PETG), I found that this geometry is doing perfectly squared angles. This is valid for angle printed perpendicularly to the bed.
 
