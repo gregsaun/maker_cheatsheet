@@ -42,18 +42,20 @@ Note that on latest Prusa i3 MK2(s) firmware the M500 command is not persistent.
 1. Add to Slic3r a 25x25x25 cube in vase mode (infill to 0%, perimeters to 1, top solid layers to 0)
 1. Set resolution to 0.15
 1. Export gcode and print it
-1. Get your extrusion width in slic3r : `Print Settings -> Advanced -> Extrusion width -> Default extrusion width`, for exampe `0.45mm`
+1. Get your extrusion width in slic3r : `Print Settings -> Advanced -> Extrusion width -> Default extrusion width`, for example `0.45mm`
 1. Get your current extrusion multiplier in slic3r : `Filament Settings -> Filament -> Filament -> Extrusion multiplier`, for example `0.99mm`
-1. Mesure each wall of the cube, for example `0.48mm`
+1. Measure each wall of the cube, for example `0.48mm`
 1. Calculate new extrusion multiplier : `(0.45/0.48) * 0.99 = 0.93`
 1. Print again the cube and check walls are correct
 
 
 ## Selective Infill
 
-Selective infill is a technic used to put solid infill in critical places (like around a screw hole).
+Selective infill is a technique used to put solid infill in critical places (like around a screw hole).
 
 Here are common parameters for applying selective infill in Fusion 360 with Slic3r Prusa Edition 1.37.1.
+
+I found this technique in Prusa OpenScad files, thanks for sharing!
 
 #### Horizontal (compared to heated bed)
 
@@ -77,6 +79,8 @@ Here are common parameters for applying selective infill in Fusion 360 with Slic
 ## Clean Vertical Hole
 
 Used to put more space on top of a vertical hole and avoid clean-up after printing
+
+I found this technique in Prusa OpenScad files, thanks for sharing!
 
 ![Clean Vertical Hole Diagram](img/hole_cleaning_diagram.png)
 
