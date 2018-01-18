@@ -61,19 +61,21 @@ I found this technique in Prusa OpenScad files, thanks for sharing!
 
 | Parameter | Expression | Value |
 |:---------:|:----------:|:-----:|
-| layer_height          | 0.20mm | 0.20 |
-| extrusion_width       | 0.45mm | 0.45 |
-| num_perimeters        | 3 | 3 |
-| perimeters_thickness      | num_perimeters * extrusion_width - 0.1 | 1.25 |
+| layer_height           | 0.20mm | 0.20 |
+| extrusion_width        | 0.45mm | 0.45 |
+| num_perimeters         | 3 | 3 |
+| perimeters_thickness   | num_perimeters * extrusion_width - 0.1 | 1.25 |
+
+Note: I do not know why I have to add this "-0.1" in perimeters_thickness. If I do not do this in Fusion 360, then I get a too fat perimeter.
 
 
 #### Vertical (compared to heated bed)
 
 | Parameter | Expression | Value |
 |:---------:|:----------:|:-----:|
-| layer_height          | 0.20mm | 0.20 |
-| num_top_bottom        | 5 | 5 |
-| top_bottom_thickness     | num_top_bottom * layer_height | 1.00 |
+| layer_height           | 0.20mm | 0.20 |
+| num_top_bottom         | 5 | 5 |
+| top_bottom_thickness   | num_top_bottom * layer_height | 1.00 |
 
 
 ## Clean Vertical Hole
