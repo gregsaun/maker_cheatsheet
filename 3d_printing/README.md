@@ -4,7 +4,7 @@
 * [Extruder Calibration](#extruder-calibration)
 * [Selective Infill](#selective-infill)
 * [Clean Vertical Hole](#clean-vertical-hole)
-* [Perfect Angle](#perfect-angle)
+* [Sharp Angle](#sharp-angle)
 * [Sanding](#sanding)
 
 ## Extruder Calibration
@@ -94,7 +94,7 @@ Where
 * a = 45°
 
 
-## Perfect Angle
+## Sharp Angle
 
 When printing angles the filament take a small short-cut resulting in a rounded angle. After several tests (in PETG), I found that this geometry is doing perfectly squared angles. This is valid for angle printed perpendicularly to the bed.
 
