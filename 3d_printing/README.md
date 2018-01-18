@@ -82,6 +82,8 @@ Note: I do not know why I have to add this "-0.1" in perimeters_thickness. If I 
 
 Used to put more space on top of a vertical hole and avoid clean-up after printing
 
+I also wrote an OpenScad lib : https://github.com/gregsaun/vertical_hole
+
 I found this technique in Prusa OpenScad files, thanks for sharing!
 
 ![Clean Vertical Hole Diagram](img/hole_cleaning_diagram.png)
