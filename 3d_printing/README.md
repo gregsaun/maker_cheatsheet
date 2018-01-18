@@ -5,6 +5,7 @@
 * [Selective Infill](#selective-infill)
 * [Clean Vertical Hole](#clean-vertical-hole)
 * [Perfect Angle](#perfect-angle)
+* [Sanding](#sanding)
 
 ## Extruder Calibration
 This is for Prusa i3 MK2s and based on a summary of [Matt's Hub article](https://mattshub.com/2017/04/19/extruder-calibration/)
@@ -94,3 +95,26 @@ When printing angles the filament take a small short-cut resulting in a rounded 
 Where
 * e = extrusion width
 * a = angle (45° for a printed angle of 90°)
+
+
+## Sanding
+
+To get smooth surface from a 3D print
+
+Thanks to JKSniper for this technique : https://www.thingiverse.com/thing:2307550 and https://youtu.be/0vgynnYzo08
+
+### Material
+* Sandpaper 200, 500 and 800
+* Spray filler
+* Spray paint (acrylic), glossy or matt
+* Bowl big enough to put your part in
+* Water (in the bowl)
+
+### Steps
+1. Sand as much as you can the edges using 200 sandpaper. Regularly put the sandpaper in water. At the end, surface should be smooth and even
+1. Clean the part and dry it carefully
+1. Mount the part in a way that you can spray all around
+1. Spray with filler and let dry. Depending on the first sanding, apply one or more layers
+1. Sand using firs 500 and then 800 sandpaper until it is smooth everywhere. Regularly put the sandpaper in water.
+1. Clean, rinse carefully the part and let it dry
+1. Spray the acrylic paint
