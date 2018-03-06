@@ -4,6 +4,7 @@
 * [Metric Threads](#metric-threads)
 * [Clearance Drill](#clearance-drill)
 * [Drill Speed](#drill-speed)
+* [Shaft and Hole Tolerances](#shaft-and-hole-tolerances)
 * [Sources](#sources)
 
 
@@ -90,7 +91,7 @@
 unit : rotation/min
 
 
-### Common Cuttin Speed
+### Common Cutting Speed
 
 | Material | Cutting speed (m/min)
 |:--:|:--:|
@@ -112,8 +113,27 @@ n = Rotational Speed of the Main Spindle (rotation/min)\
 Vc = Cutting speed, depends on material, see table bellow (m/min)\
 d = drill diameter (mm)\
 
+
+## Shaft and Hole Tolerances
+
+Table of ISO tolerances of most common classes for 6 to 10mm shafts/holes
+
+| Hole class |  Hole<br> min / max | Shaft<br> min / max | Shaft class |
+|:-----:|:---:|:---:|:---:|
+| F7 |  0.0130 / 0.0280 | -0.0280 / -0.0130 | f7 |
+| F6 |  0.0130 / 0.0220 | -0.0220 / -0.0130 | f6 |
+| G7 |  0.0050 / 0.0200 | -0.0200 / -0.0050 | g7 |
+| G6 |  0.0050 / 0.0140 | -0.0140 / -0.0050 | g6 |
+| H7 |  0.0000 / 0.0150 | -0.0150 /  0.0000 | h7 |
+| H6 |  0.0000 / 0.0090 | -0.0090 /  0.0000 | h6 |
+| H5 |  0.0000 / 0.0060 | -0.0060 /  0.0000 | h5 |
+
+More here : http://theoreticalmachinist.com/IsoTolZoneCalc
+
+
 ## Sources
 
 * [Metric Tap & Clearance Drill Sizes](https://littlemachineshop.com/reference/TapDrillSizes.pdf)
 * [Le B.A.-BA à l’atelier - EPFL](https://sti-ateliers.epfl.ch/files/content/sites/sti-ateliers/files/atmx/documents/LeB.A-BAatelier.pdf)
 * [MacMaster-Carr](https://www.mcmaster.com)
+* Tolerances and fits : http://theoreticalmachinist.com/IsoTolZoneCalc and http://www.amesweb.info/FitTolerance/FitTolerance.aspx
