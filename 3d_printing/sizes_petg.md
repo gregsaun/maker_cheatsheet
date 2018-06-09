@@ -1,6 +1,6 @@
 # 3D Printing Cheat Sheet
 
-## Sizes
+## Sizes For PETG
 
 ### Table of contents
 * [Screw Hole](#screw-hole)
@@ -13,7 +13,7 @@
 
 ### Screw Hole
 
-Screw hole diameter using PETG filament
+Screw hole diameter
 
 #### Socket Head ISO 4762 / DIN 912
 
@@ -26,7 +26,7 @@ Screw hole diameter using PETG filament
 
 ### Screw Head Hole
 
-Hole to fit the screw's head using PETG filament
+Hole to fit the screw's head
 
 #### Socket Head ISO 4762 / DIN 912
 
@@ -45,7 +45,7 @@ Hole to fit the screw's head using PETG filament
 
 ### Self Tapping Hole
 
-Hole diameter to use metric screws as self tapping screws using PETG filament
+Hole diameter to use metric screws as self tapping screws
 
 #### Socket Head ISO 4762 / DIN 912
 
@@ -57,7 +57,7 @@ Hole diameter to use metric screws as self tapping screws using PETG filament
 
 ### Nut Pocket
 
-Polygon hole to fit a nut using PETG filament
+Polygon hole to fit a nut
 
 #### Hex DIN 934
 
