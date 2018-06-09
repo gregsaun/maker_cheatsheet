@@ -7,6 +7,7 @@
 * [Screw Head Hole](#screw-head-hole)
 * [Self Tapping Hole](#self-tapping-hole)
 * [Nut Pocket](#nut-pocket)
+* [Shaft Hole](#shaft-hole)
 
 
 
@@ -62,14 +63,14 @@ Polygon hole to fit a nut using PETG filament
 
 | Thread Size | Close Fit (mm) | Standard Fit (mm) | Height (mm) | Height With Bridge (mm) |
 |:-----------:|:--------------:|:-----------------:|:-----------:|:-----------------------:|
-| M3  | 6.2 | 6.3 | 2.5 | 3.2 |
+| M3  | 6.2 | 6.4 | 2.5 | 3.2 |
 
 
 #### Nylock Locknut DIN 985
 
 | Thread Size | Close Fit (mm) | Standard Fit (mm) | Height (mm) | Height With Bridge (mm) |
 |:-----------:|:--------------:|:-----------------:|:-----------:|:-----------------------:|
-| M3  | 6.2 | 6.3 | 4.1 | |
+| M3  | 6.2 | 6.4 | 4.1 | |
 
 
 #### Square Nut DIN 562
@@ -77,3 +78,22 @@ Polygon hole to fit a nut using PETG filament
 | Thread Size | Close Fit (mm) | Standard Fit (mm) | Height (mm) | Height With Bridge (mm) |
 |:-----------:|:--------------:|:-----------------:|:-----------:|:-----------------------:|
 | M3  | 5.6 |  | 1.9 | 2.1 |
+
+
+
+### Shaft Hole
+
+#### Parallel To Heated Bed
+
+Those holes are using ["Clean Vertical Hole" technique](techniques.md)
+
+| Shaft Dia (mm) | Very Close Fit (mm) | Close Fit (mm) | Standard Fit (mm) |
+|:--------------:|:-------------------:|:--------------:|:-----------------:|
+| 3 | 3.1 | | |
+
+
+#### Perpendicular To Heated Bed
+
+| Shaft Dia (mm) | Very Close Fit (mm) | Close Fit (mm) | Standard Fit (mm) |
+|:--------------:|:-------------------:|:--------------:|:-----------------:|
+| 8 | 8.03 | 8.05 | |
