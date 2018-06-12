@@ -61,12 +61,16 @@ Polygon hole to fit a nut
 
 #### Hex DIN 934
 
+Sizes are the diameter of a circle where the polygon (nut) is inscribed.
+
 | Thread Size | Close Fit (mm) | Standard Fit (mm) | Height (mm) | Height With Bridge (mm) |
 |:-----------:|:--------------:|:-----------------:|:-----------:|:-----------------------:|
 | M3  | 6.2 | 6.4 | 2.5 | 3.2 |
 
 
 #### Nylock Locknut DIN 985
+
+Sizes are the diameter of a circle where the polygon (nut) is inscribed.
 
 | Thread Size | Close Fit (mm) | Standard Fit (mm) | Height (mm) | Height With Bridge (mm) |
 |:-----------:|:--------------:|:-----------------:|:-----------:|:-----------------------:|
