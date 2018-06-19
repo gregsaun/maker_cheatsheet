@@ -6,6 +6,7 @@
 * [Selective Infill](#selective-infill)
 * [Clean Vertical Hole](#clean-vertical-hole)
 * [Sharp Angle](#sharp-angle)
+* [SCAD to STEP Conversion](#scad-to-step-conversion)
 * [Sanding](#sanding)
 
 
@@ -63,6 +64,14 @@ When printing angles the filament take a small short-cut resulting in a rounded 
 Where
 * e = extrusion width
 * a = angle (45° for a printed angle of 90°)
+
+
+### SCAD to STEP Conversion
+
+Tutorial to convert OpenSCAD files to STEP files using FreeCAD
+
+https://forum.lulzbot.com/viewtopic.php?t=243
+
 
 
 ### Sanding
