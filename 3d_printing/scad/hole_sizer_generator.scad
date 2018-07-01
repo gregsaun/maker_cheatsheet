@@ -66,7 +66,7 @@ module hole_plate(holes_mm, under_size_mm, over_size_mm, size_step_mm,
         for(i = [0 : count_basic_sizes - 1]) {
             for(j = [0 : count_offsets - 1]) {
                 
-            		// Compute hole parameters.
+            	// Compute hole parameters.
                 x = hole_pitch * j;
                 y = hole_pitch * i;
                 d = holes_mm[i] + size_offsets[j];
