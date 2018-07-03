@@ -4,6 +4,7 @@
 
 ### Table of contents
 * [Extruder Calibration](#extruder-calibration)
+* [Extruder Linearity Correction](#extruder-linearity-correction)
 
 ### Extruder Calibration
 This is for Prusa i3 MK2s and based on a summary of [Matt's Hub article](https://mattshub.com/2017/04/19/extruder-calibration/)
@@ -45,3 +46,9 @@ Note that on latest Prusa i3 MK2(s) firmware the M500 command is not persistent.
 1. Measure each wall of the cube, for example `0.48mm`
 1. Calculate new extrusion multiplier : `(0.45/0.48) * 0.99 = 0.93`
 1. Print again the cube and check walls are correct
+
+
+
+### Extruder Linearity Correction
+
+https://github.com/prusa3d/Prusa-Firmware/wiki/Extruder-linearity-correction-calibration
