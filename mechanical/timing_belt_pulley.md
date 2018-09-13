@@ -6,9 +6,9 @@
 
 ### Table of contents
 * [Glossary](#glossary)
-* [Gates 2GT Specifications](#gates_2gt_specifications)
-* [Gates GT3 Specifications](#gates_gt3_specifications)
-* [Pulley Outside Diameter](#pulley_outside_diameter)
+* [Gates 2GT Specifications](#gates-2gt-specifications)
+* [Gates GT3 Specifications](#gates-gt3-specifications)
+* [Pulley Outside Diameter](#pulley-outside-diameter)
 
 
 
