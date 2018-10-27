@@ -20,7 +20,7 @@
 
 ### Gates 2GT Specifications
 
-2GT belts are manufactured by an affiliate company of Gates called "Gates Unitta", in Asia. Gates 2GT belts are using a different profile than GT2/GT3. As they are not 100% compatible with GT2/GT3 they could lead to an increase in backlash, specially on a 3D printer. The belt quality is also lower than GT2/GT3 belts.
+2GT belts are manufactured by an affiliate company of Gates called "Gates Unitta", in Asia. Gates 2GT belts are using a different profile than GT2/GT3. As they are not 100% compatible with GT2/GT3 they could lead to an increase in backlash and belt wear, specially on a 3D printer.
 
 ![Gates 2GT 3GT Drawing](img/2gt_3gt_specs.jpg)
 
@@ -28,10 +28,9 @@
 
 ### Gates GT3 Specifications
 
-GT2 and GT3 belts have same dimensions and are 100% compatible. GT3 are new version with a better structure.
+GT2 and GT3 belts are made by Gates USA. They share the same profile and are 100% compatible. GT3 is the new version with a better construction.
 
-![Gates GT3 2mm Drawing](img/gt3_2mm_specs.jpg)
-![Gates GT3 3mm Drawing](img/gt3_3mm_specs.jpg)
+![Gates GT3 Drawing](img/gt3_specs.jpg)
 
 
 
