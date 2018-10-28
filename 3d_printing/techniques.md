@@ -22,12 +22,9 @@ I found this technique in Prusa OpenScad files, thanks for sharing!
 
 | Parameter | Expression | Value |
 |:---------:|:----------:|:-----:|
-| layer_height           | 0.20mm | 0.20 |
 | extrusion_width        | 0.45mm | 0.45 |
 | num_perimeters         | 3 | 3 |
-| perimeters_thickness   | num_perimeters * extrusion_width - 0.1 | 1.25 |
-
-Note: I do not know why I have to add this "-0.1" in perimeters_thickness. If I do not do this in Fusion 360, then I get a too fat perimeter. Any idea is welcome :)
+| perimeters_thickness   | num_perimeters * (extrusion_width - 0.05) | 1.25 |
 
 
 #### Vertical (compared to heated bed)
