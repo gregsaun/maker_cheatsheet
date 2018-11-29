@@ -52,7 +52,7 @@ Hole diameter to use metric screws as self tapping screws
 | Thread Size | Hole Dia (mm) | Input Chamfer <br> dia x deep (mm) |
 |:-----------:|:-------------:|:----------------------------------:|
 | M2  | 1.65 | 2.4 x 1.5 |
-| M3  | 2.8  | 3.5 x 1   |
+| M3  | 2.7  | 3.5 x 1   |
 
 
 
