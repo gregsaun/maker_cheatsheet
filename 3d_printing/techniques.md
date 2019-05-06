@@ -26,6 +26,8 @@ I found this technique in Prusa OpenScad files, thanks for sharing!
 | num_perimeters         | 3 | 3 |
 | perimeters_thickness   | num_perimeters * (extrusion_width - 0.05) | 1.25 |
 
+Note that this perimeter thickness calculation is just an approximation of what the slicer will really use. In reality it is a bit more complexe than that because the slicer overlap perimeters.
+
 
 #### Vertical (compared to heated bed)
 
