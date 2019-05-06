@@ -51,6 +51,8 @@ Where
 * a = 30°
 * w = if the hole is too small, w will be equal or lower than 0. In this case I recommend to make the angle 'a' more vertical.
 
+For holes smaller than 3mm diameter I make a simple triangle using the same angle (no flat on top).
+
 
 ### Sharp Angle
 
