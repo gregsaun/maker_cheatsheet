@@ -33,9 +33,9 @@ Note that this perimeter thickness calculation is just an approximation of what 
 
 | Parameter | Expression | Value |
 |:---------:|:----------:|:-----:|
-| layer_height           | 0.20mm | 0.20 |
+| layer_height           | 0.20mm | 0.20mm |
 | num_top_bottom         | 5 | 5 |
-| top_bottom_thickness   | num_top_bottom * layer_height | 1.00 |
+| top_bottom_thickness   | num_top_bottom * layer_height | 1.00mm |
 
 
 ### Clean Vertical Hole
@@ -51,7 +51,10 @@ Where
 * a = 30°
 * w = if the hole is too small, w will be equal or lower than 0. In this case I recommend to make the angle 'a' more vertical.
 
-For holes smaller than 3mm diameter I make a simple triangle using the same angle (no flat on top).
+For holes smaller than 3mm diameter I make a simple triangle (no flat on top) with those values:
+* h >= layer height
+* a >= 30°
+* w = 0
 
 
 ### Sharp Angle
