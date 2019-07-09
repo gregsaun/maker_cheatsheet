@@ -14,7 +14,7 @@
 
 ### Selective Infill
 
-Selective infill is a technique used to create solid perimeters in middle of the infill of a printed part to increase stiffness. To achieve this we create a hole in the middle of the infill, the slicer will then see the hole and create perimeters around it. It will also add top and bottoms layers for the holes.
+Selective infill is a technique used to create stronger 3D printed parts. It consists of creating a hole in the middle of the infill, like this the slicer will create perimeters around this hole. It will also add top and bottoms layers for this hole.
 
 Placed correctly, a selective infill can double the perimeters or top/bottom layers. To achieve this you need to know how thick are the bottom/top layers, how wide are the perimeters and what is the minimum size of hole you can apply.
 
@@ -22,11 +22,11 @@ Credits: Prusa's OpenScad files, thanks for sharing!
 
 #### Min hole size
 
-Slic3r and PrusaSlicer will consider a hole smaller or equal to 0.10mm x 0.10mm as a defect in the STL and will ignore it. I then usually use the value 0.101x0.101mm as the minimum hole size for selective infill. You can use bigger holes if you like and know what you are doing.
+Slic3r and PrusaSlicer will consider a hole smaller or equal to 0.10mm x 0.10mm as a defect in the STL and will ignore it. I then usually use the value 0.101x0.101mm as the minimum hole size for selective infill. You can also use bigger holes.
 
 #### Perimeters width
 
-The perimeters are overlapping each others so you need to take this overlap into account. Slic3r explains how to calculate the overlap here: [manual.slic3r.org/advanced/flow-math#spacing-paths](https://manual.slic3r.org/advanced/flow-math#spacing-paths)
+The perimeters are overlapping each others so you need to take this overlap into account. Slic3r documentation explains how to calculate the overlap here: [manual.slic3r.org/advanced/flow-math#spacing-paths](https://manual.slic3r.org/advanced/flow-math#spacing-paths)
 
 Note: No overlap is applied for bridging but this will be very rarely useful when doing selective infill.
 
