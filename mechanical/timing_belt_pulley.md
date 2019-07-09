@@ -34,6 +34,11 @@ GT2 and GT3 belts are made by Gates USA. They share the same profile and are 100
 
 
 
+### Non-genuine GT2 belt
+
+Those belts have probably 2GT profile but with all the naming chaos and unknown source you might have something else. I highly recommend to use genuine Gates belt for such an important part.
+
+
 ### Pulley Outside Diameter
 
 `pd = P*N / π`

@@ -59,6 +59,11 @@ Where
 * a = 30°
 * w = if the hole is too small, w will be equal or lower than 0. In this case I recommend to make the angle 'a' more vertical.
 
+For holes smaller than 3mm diameter I make a simple triangle (no flat on top) with those values:
+* h >= layer height
+* a >= 30°
+* w = 0
+
 
 
 ### Sharp Angle
