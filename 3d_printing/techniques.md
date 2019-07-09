@@ -6,41 +6,51 @@
 * [Selective Infill](#selective-infill)
 * [Clean Vertical Hole](#clean-vertical-hole)
 * [Sharp Angle](#sharp-angle)
+* [Flow Rate](#flow-rate)
 * [SCAD to STEP Conversion](#scad-to-step-conversion)
 * [Sanding](#sanding)
 
 
+
 ### Selective Infill
 
-Selective infill is a technique used to put solid infill in critical places (like around a screw hole).
+Selective infill is a technique used to put solid infill in critical places (like around a screw hole). To achieve this we create a hole in the middle of the infill, the slicer will then see the hole and create perimeters around it.
 
-Here are common parameters for applying selective infill in Fusion 360 with Slic3r Prusa Edition 1.37.1.
+Placed correctly, a selective infill can double the perimeters or top/bottom layers. To achieve this you need to know how thick are the bottom/top layers, how wide are the perimeters and what minimum size of hole you can apply.
 
-I found this technique in Prusa OpenScad files, thanks for sharing!
+Credits: Prusa's OpenScad files, thanks for sharing!
 
-#### Horizontal (compared to heated bed)
+#### Min hole size
 
-| Parameter | Expression | Value |
-|:---------:|:----------:|:-----:|
-| extrusion_width        | 0.45mm | 0.45 |
-| num_perimeters         | 3 | 3 |
-| perimeters_thickness   | num_perimeters * (extrusion_width - 0.05) | 1.25 |
+Slic3r and PrusaSlicer will consider a hole smaller or equal than 0.10mm x 0.10mm as a defect in the STL and will ignore it. I then usually use the value 0.101x0.101mm as the minimum hole size for selective infill.
 
+#### Perimeters width
 
-#### Vertical (compared to heated bed)
+The perimeters are overlapping each others so you need to take this overlap into account. Slic3r explains how to calculate the overlap here: [manual.slic3r.org/advanced/flow-math#spacing-paths](https://manual.slic3r.org/advanced/flow-math#spacing-paths)
 
-| Parameter | Expression | Value |
-|:---------:|:----------:|:-----:|
-| layer_height           | 0.20mm | 0.20 |
-| num_top_bottom         | 5 | 5 |
-| top_bottom_thickness   | num_top_bottom * layer_height | 1.00 |
+Note: No overlap is applied for bridging but this will be very rarely useful when doing selective infill.
+
+| Parameter              | Formula | Value Example |
+|:----------------------:|:-------:|:-----:|
+| extrusion_width        |         | 0.45mm |
+| layer_height           |         | 0.20mm |
+| num_perimeters         |         | 4 |
+| extrusion_spacing      | extrusion_width - layer_height * (1 - &pi;/4) | 0.4071mm |
+| perimeters_thickness   | extrusion_width + (num_perimeters-1) * extrusion_spacing | 1.67mm |
+
+#### Top/Bottoms thickness
+
+| Parameter              | Formula | Value Example |
+|:----------------------:|:-------:|:-----:|
+| layer_height           |  | 0.20mm |
+| num_top_bottom         |  | 5mm |
+| top_bottom_thickness   | num_top_bottom * layer_height | 1mm |
+
 
 
 ### Clean Vertical Hole
 
-Used to put more space on top of a vertical hole and avoid clean-up after printing
-
-I first found this technique in Prusa OpenScad files, thanks for sharing!
+Used to put more space on top of a vertical hole and avoid clean-up after printing. I first found this technique in Prusa OpenScad files but I have defined my own method to achieve a good result.
 
 ![Clean Vertical Hole Diagram](img/hole_cleaning_diagram.png)
 
@@ -48,6 +58,7 @@ Where
 * h = layer_height
 * a = 30°
 * w = if the hole is too small, w will be equal or lower than 0. In this case I recommend to make the angle 'a' more vertical.
+
 
 
 ### Sharp Angle
@@ -59,6 +70,15 @@ When printing angles the filament take a small short-cut resulting in a rounded 
 Where
 * e = extrusion width
 * a = angle (45° for a printed angle of 90°)
+
+
+
+### Flow Rate
+
+Tutorial on how to define flow rate and print speed range for your filament.
+
+https://www.proto-pasta.com/blogs/how-to/leveling-up-your-printer-game-on-the-lulzbot-mini
+
 
 
 ### SCAD to STEP Conversion
