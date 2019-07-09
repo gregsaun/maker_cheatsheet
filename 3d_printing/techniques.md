@@ -14,15 +14,15 @@
 
 ### Selective Infill
 
-Selective infill is a technique used to put solid infill in critical places (like around a screw hole). To achieve this we create a hole in the middle of the infill, the slicer will then see the hole and create perimeters around it.
+Selective infill is a technique used to create solid perimeters in middle of the infill of a printed part to increase stiffness. To achieve this we create a hole in the middle of the infill, the slicer will then see the hole and create perimeters around it. It will also add top and bottoms layers for the holes.
 
-Placed correctly, a selective infill can double the perimeters or top/bottom layers. To achieve this you need to know how thick are the bottom/top layers, how wide are the perimeters and what minimum size of hole you can apply.
+Placed correctly, a selective infill can double the perimeters or top/bottom layers. To achieve this you need to know how thick are the bottom/top layers, how wide are the perimeters and what is the minimum size of hole you can apply.
 
 Credits: Prusa's OpenScad files, thanks for sharing!
 
 #### Min hole size
 
-Slic3r and PrusaSlicer will consider a hole smaller or equal than 0.10mm x 0.10mm as a defect in the STL and will ignore it. I then usually use the value 0.101x0.101mm as the minimum hole size for selective infill.
+Slic3r and PrusaSlicer will consider a hole smaller or equal to 0.10mm x 0.10mm as a defect in the STL and will ignore it. I then usually use the value 0.101x0.101mm as the minimum hole size for selective infill. You can use bigger holes if you like and know what you are doing.
 
 #### Perimeters width
 
@@ -30,15 +30,15 @@ The perimeters are overlapping each others so you need to take this overlap into
 
 Note: No overlap is applied for bridging but this will be very rarely useful when doing selective infill.
 
-| Parameter              | Formula | Value Example |
-|:----------------------:|:-------:|:-----:|
-| extrusion_width        |         | 0.45mm |
-| layer_height           |         | 0.20mm |
-| num_perimeters         |         | 4 |
-| extrusion_spacing      | extrusion_width - layer_height * (1 - &pi;/4) | 0.4071mm |
-| perimeters_thickness   | extrusion_width + (num_perimeters-1) * extrusion_spacing | 1.67mm |
+| Parameter          | Formula | Value Example |
+|:------------------:|:-------:|:-----:|
+| extrusion_width    |         | 0.45mm |
+| layer_height       |         | 0.20mm |
+| num_perimeters     |         | 4 |
+| extrusion_spacing  | extrusion_width - layer_height * (1 - &pi;/4) | 0.4071mm |
+| perimeters_width   | extrusion_width + (num_perimeters-1) * extrusion_spacing | 1.67mm |
 
-#### Top/Bottoms thickness
+#### Tops and bottoms thickness
 
 | Parameter              | Formula | Value Example |
 |:----------------------:|:-------:|:-----:|
