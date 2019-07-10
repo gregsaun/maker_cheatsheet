@@ -14,6 +14,8 @@
 
 ### Selective Infill
 
+![Selective Infill Example](img/selective_infill_example.jpg)
+
 Selective infill is a technique used to create stronger 3D printed parts. It consists of creating a hole in the middle of the infill, like this the slicer will create perimeters around this hole. It will also add top and bottoms layers for this hole.
 
 Placed correctly, a selective infill can double the perimeters or top/bottom layers. To achieve this you need to know how thick are the bottom/top layers, how wide are the perimeters and what is the minimum size of hole you can apply.
