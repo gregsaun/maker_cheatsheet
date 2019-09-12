@@ -6,7 +6,6 @@
 * [Selective Infill](#selective-infill)
 * [Clean Vertical Hole](#clean-vertical-hole)
 * [Sharp Angle](#sharp-angle)
-* [Flow Rate](#flow-rate)
 * [SCAD to STEP Conversion](#scad-to-step-conversion)
 * [Sanding](#sanding)
 
@@ -77,14 +76,6 @@ When printing angles the filament take a small short-cut resulting in a rounded 
 Where
 * e = extrusion width
 * a = angle (45° for a printed angle of 90°)
-
-
-
-### Flow Rate
-
-Tutorial on how to define flow rate and print speed range for your filament.
-
-https://www.proto-pasta.com/blogs/how-to/leveling-up-your-printer-game-on-the-lulzbot-mini
 
 
 
