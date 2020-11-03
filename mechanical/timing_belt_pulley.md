@@ -28,7 +28,7 @@
 
 ### Gates GT3 Specifications
 
-GT2 and GT3 belts are made by Gates USA. GT2 and GT3 shares the same profile and are 100% compatible. GT3 name is only for belt, it is a new version with a better construction. There is no GT3 pulleys as this naming is for belt only (pulley are therefore GT2).
+GT2 and GT3 belts are made by "Gates USA" and are using a different profile than 2GT. GT2 and GT3 share the same profile and are 100% compatible. GT3 name is only for belt, it is a new version with a better construction. There is no GT3 pulleys as this naming is for belt only (pulleys are therefore GT2).
 
 ![Gates GT3 Drawing](img/gt3_specs.jpg)
 
