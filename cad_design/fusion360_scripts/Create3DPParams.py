@@ -32,11 +32,24 @@ def run(context):
             ui.messageBox('No active Fusion design')
             return
 
+        # Maintain a list of parameters which couldn't be added
+        skippedParameters = []
+
         # Parse parameters one by one and add them to the active design
         userParameters = design.userParameters
         for parameter in paramsToAdd:
             print(parameter[0])
-            userParameters.add(parameter[0], adsk.core.ValueInput.createByString(parameter[1]), parameter[2], parameter[3])
+
+            # Only add the parameter if it's new
+            existingParameter = design.userParameters.itemByName(parameter[0])
+            if existingParameter is None:
+                userParameters.add(parameter[0], adsk.core.ValueInput.createByString(parameter[1]), parameter[2], parameter[3])
+            else:
+                skippedParameters.append(parameter[0])
+
+        # Display a message showing any parameters that pre-existed
+        if len(skippedParameters):
+            ui.messageBox('Skipped {} as they existed already. Remove the parameter(s) and rerun the script if necessary.'.format(skippedParameters))
 
         ui.messageBox('Parameters have been created successfully')
 
