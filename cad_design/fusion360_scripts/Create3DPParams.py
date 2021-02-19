@@ -49,9 +49,9 @@ def run(context):
 
         # Display a message showing any parameters that pre-existed
         if len(skippedParameters):
-            ui.messageBox('Skipped {} as they existed already. Remove the parameter(s) and rerun the script if necessary.'.format(skippedParameters))
-
-        ui.messageBox('Parameters have been created successfully')
+            ui.messageBox('Parameters have been created successfully except {} which have been skipped as they existed already.'.format(skippedParameters))
+        else:
+            ui.messageBox('Parameters have been created successfully')
 
     except:
         if ui:
