@@ -41,7 +41,7 @@ def run(context):
             print(parameter[0])
 
             # Only add the parameter if it's new
-            existingParameter = design.userParameters.itemByName(parameter[0])
+            existingParameter = userParameters.itemByName(parameter[0])
             if existingParameter is None:
                 userParameters.add(parameter[0], adsk.core.ValueInput.createByString(parameter[1]), parameter[2], parameter[3])
             else:
