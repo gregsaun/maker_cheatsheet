@@ -34,9 +34,9 @@ def run(context):
 
         # Parse parameters one by one and add them to the active design
         params = design.userParameters
-        for paramNum in range(len(paramsToAdd)) :
-            print(paramsToAdd[paramNum][0])
-            params.add(paramsToAdd[paramNum][0], adsk.core.ValueInput.createByString(paramsToAdd[paramNum][1]), paramsToAdd[paramNum][2], paramsToAdd[paramNum][3])
+        for parameter in paramsToAdd:
+            print(parameter[0])
+            params.add(parameter[0], adsk.core.ValueInput.createByString(parameter[1]), parameter[2], parameter[3])
 
         ui.messageBox('Parameters have been created successfully')
 
