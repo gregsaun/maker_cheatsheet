@@ -56,7 +56,7 @@ Used to put more space on top of a vertical hole and avoid clean-up after printi
 ![Clean Vertical Hole Diagram](img/hole_cleaning_diagram.png)
 
 Where
-* h = layer_height
+* h = layer height
 * a = 30°
 * w = if the hole is too small, w will be equal or lower than 0. In this case I recommend to make the angle 'a' more vertical.
 
@@ -69,7 +69,7 @@ For holes smaller than 3mm diameter I make a simple triangle (no flat on top) wi
 
 ### Sharp Angle
 
-When printing angles the filament takes a small short-cut resulting in a rounded angles. After several tests (in PETG), I found that this geometry creates better squared angles.
+When printing angles the filament takes a small short-cut resulting in a rounded angles. After several tests with PETG, I found that this geometry creates better squared corners. Might need some adaptation for other type of filaments.
 
 ![Perfect Angle Diagram](img/perfect_angle.png)
 
