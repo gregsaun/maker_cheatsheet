@@ -92,7 +92,7 @@ To better understand how it works, the images bellow shows you what you will see
 
 ![Mid-air hole slicer](img/mid_air_hole_02.jpg)
 
-You can download this part if you want to test yourself: [STEP File](files/mid_air_hole.stl) or [STL File](files/mid_air_hole.stl)
+You can download this part if you want to test yourself: [STEP File](files/mid_air_hole.step) or [STL File](files/mid_air_hole.stl)
 
 This technique is also explained with the excellent video of Adam from Vector 3D: [youtube.com/watch?v=IVtqAn4oDDE](https://www.youtube.com/watch?v=IVtqAn4oDDE)
 
