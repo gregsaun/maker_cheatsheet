@@ -6,6 +6,7 @@
 * [Selective Infill](#selective-infill)
 * [Clean Vertical Hole](#clean-vertical-hole)
 * [Sharp Angle](#sharp-angle)
+* [Mid-Air Hole](#mid-air-hole)
 * [SCAD to STEP Conversion](#scad-to-step-conversion)
 * [Sanding](#sanding)
 
@@ -76,6 +77,24 @@ When printing angles the filament take a small short-cut resulting in a rounded 
 Where
 * e = extrusion width
 * a = angle (45° for a printed angle of 90°)
+
+
+
+### Mid-Air hole
+
+This techniques allows to print a hole in mid-air without support or post-processing. The principle of this technique is to force the slicer to make bridging to support the hole.
+
+The images bellow shows you how to design this technique in CAD step by step (the red surface will be touching the bed in the slicer). Every steps correspond to your layer height. The last step where I add the chamfers is not mandatory but improves the print quality (I am using 0.3mm 45° chamfer for 0.2mm layer height):
+
+![Mid-air hole CAD](img/mid_air_hole_01.jpg)
+
+To better understand how it works, the images bellow shows you what you will see on the slicer:
+
+![Mid-air hole slicer](img/mid_air_hole_02.jpg)
+
+You can download this part if you want to test yourself: [STEP File](files/mid_air_hole.stl) or [STL File](files/mid_air_hole.stl)
+
+This technique is also explained with the excellent video of Adam from Vector 3D: [youtube.com/watch?v=IVtqAn4oDDE](https://www.youtube.com/watch?v=IVtqAn4oDDE)
 
 
 
