@@ -69,7 +69,7 @@ For holes smaller than 3mm diameter I make a simple triangle (no flat on top) wi
 
 ### Sharp Angle
 
-When printing angles the filament take a small short-cut resulting in a rounded angle. After several tests (in PETG), I found that this geometry is doing perfectly squared angles. This is valid for angle printed perpendicularly to the bed.
+When printing angles the filament takes a small short-cut resulting in a rounded angles. After several tests (in PETG), I found that this geometry creates better squared angles.
 
 ![Perfect Angle Diagram](img/perfect_angle.png)
 
