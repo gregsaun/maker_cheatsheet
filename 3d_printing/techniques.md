@@ -45,7 +45,7 @@ Note: No overlap is applied for bridging but this will be very rarely useful whe
 | Parameter              | Formula | Value Example |
 |:----------------------:|:-------:|:-----:|
 | layer_height           |  | 0.20mm |
-| num_top_bottom         |  | 5mm |
+| num_top_bottom         |  | 5 |
 | top_bottom_thickness   | num_top_bottom * layer_height | 1mm |
 
 
