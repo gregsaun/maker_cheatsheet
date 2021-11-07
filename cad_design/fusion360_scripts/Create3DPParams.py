@@ -18,7 +18,8 @@ paramsToAdd = [
     ['m3_square_nut',         '5.5',                                   'mm', 'M3 square nut DIN562 pocket width'],
     ['m5_hole',               '5.3',                                   'mm', 'M5 hole diameter'],
     ['m5_head',               '10',                                    'mm', 'M5 screw ISO4762 head diameter'],
-    ['wall_thickness_double', 'floor(( e_width + ( num_perims * 2 - 1 ) * e_spacing ) * 100) / 100', 'mm', 'wall thickness made with double number of perimeters (without infill)'],
+    ['perims_width',          'floor(( e_width + ( num_perims - 1 ) * e_spacing ) * 100) / 100', 'mm', 'width of num_perims perimeters'],
+    ['double_perims_width',   'floor(( e_width + ( num_perims * 2 - 1 ) * e_spacing ) * 100) / 100', 'mm', 'width of double number of num_perims perimeters'],
 ]
 
 def run(context):
