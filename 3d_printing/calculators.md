@@ -5,10 +5,10 @@
 
 
 ### Table of contents
-* [Extrusion Multiplier](#extrusion_multiplier)
-* [Extruder steps/mm](#extruder_steps_mm)
-* [Part Scaling](#part_scaling)
-* [Pulley Diameters](#pulley_diameters)
+* [Extrusion Multiplier](#extrusion-multiplier)
+* [Extruder steps/mm](#extruder-steps-mm)
+* [Part Scaling](#part-scaling)
+* [Pulley Diameters](#pulley-diameters)
 * [Resources](#resources)
 
 
