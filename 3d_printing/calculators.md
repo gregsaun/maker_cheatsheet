@@ -4,7 +4,7 @@
 
 
 ## Table of contents
-* [&nldr;](../)
+* [&nldr;](../3d_printing/README.md)
 * [Extrusion Multiplier](#extrusion-multiplier)
 * [Extruder steps/mm](#extruder-stepsmm)
 * [Part Scaling](#part-scaling)
