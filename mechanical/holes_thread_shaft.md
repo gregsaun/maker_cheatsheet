@@ -3,7 +3,7 @@
 # Holes, Threads and Shaft
 
 ## Table of contents
-* [&nldr;](../)
+* [&nldr;](../mechanical/README.md)
 * [Metric Threads](#metric-threads)
 * [Clearance Drill](#clearance-drill)
 * [Drill Speed](#drill-speed)

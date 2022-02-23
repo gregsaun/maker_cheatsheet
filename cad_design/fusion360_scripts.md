@@ -3,7 +3,7 @@
 # Fusion 360 Scripts
 
 ## Table of contents
-* [&nldr;](../)
+* [&nldr;](../cad_design/README.md)
 * [Create Standard Parameters For 3D Printing](#create-standard-parameters-for-3d-printing)
 
 ## Create Standard Parameters For 3D Printing

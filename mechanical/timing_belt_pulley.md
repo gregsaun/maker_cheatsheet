@@ -3,7 +3,7 @@
 # Timing Belt and Pulley
 
 ## Table of contents
-* [&nldr;](../)
+* [&nldr;](../mechanical/README.md)
 * [Glossary](#glossary)
 * [Gates 2GT Specifications](#gates-2gt-specifications)
 * [Gates GT3 Specifications](#gates-gt3-specifications)
