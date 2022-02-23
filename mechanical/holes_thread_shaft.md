@@ -1,8 +1,9 @@
 # Mechanical Cheat Sheet
 
-## Holes, Threads and Shaft
+# Holes, Threads and Shaft
 
-### Table of contents
+## Table of contents
+* [&nldr;](../)
 * [Metric Threads](#metric-threads)
 * [Clearance Drill](#clearance-drill)
 * [Drill Speed](#drill-speed)
@@ -10,7 +11,7 @@
 * [Sources](#sources)
 
 
-### Metric Threads
+## Metric Threads
 
 | Screw Size (mm) | Thread Pitch (mm) | Drill Size (mm) |
 |:---------------:|:-----------------:|:---------------:|
@@ -39,7 +40,7 @@
 | M20  | 2.5  | 17.5 |
 
 
-### Clearance Drill
+## Clearance Drill
 
 | Screw Size (mm) | Close Fit Drill Size (mm) | Standard Fit Drill Size (mm) |
 |:---------------:|:-------------------------:|:----------------------------:|
@@ -68,10 +69,10 @@
 | M20  | 21    | 22   |
 
 
-### Drill Speed
+## Drill Speed
 
 
-#### Drill speed per material
+### Drill speed per material
 
 | Diameter (mm) | Softwood | Hardwood | Steel (tough) | Steel (mild) | Aluminum | Brass | Stainless Steel | Copper/Bronzes |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -93,7 +94,7 @@
 unit : rotation/min
 
 
-#### Common Cutting Speed
+### Common Cutting Speed
 
 | Material | Cutting speed (m/min)
 |:--:|:--:|
@@ -107,7 +108,7 @@ unit : rotation/min
 | Copper/Bronzes | 30 |
 
 
-#### Formula
+### Formula
 n = 1000 * Vc / ( pi * d )
 
 Where:\
@@ -116,7 +117,7 @@ Vc = Cutting speed, depends on material, see table bellow (m/min)\
 d = drill diameter (mm)\
 
 
-### Shaft and Hole Tolerances
+## Shaft and Hole Tolerances
 
 Table of ISO tolerances of most common classes for 6 to 10mm shafts/holes
 
@@ -133,7 +134,7 @@ Table of ISO tolerances of most common classes for 6 to 10mm shafts/holes
 More here : http://theoreticalmachinist.com/IsoTolZoneCalc
 
 
-### Sources
+## Sources
 
 * [Metric Tap & Clearance Drill Sizes](https://littlemachineshop.com/reference/TapDrillSizes.pdf)
 * [Le B.A.-BA à l’atelier - EPFL](https://sti-ateliers.epfl.ch/files/content/sites/sti-ateliers/files/atmx/documents/LeB.A-BAatelier.pdf)

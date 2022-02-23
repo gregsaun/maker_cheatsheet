@@ -1,6 +1,12 @@
+# CAD Design cheat sheet
+
 # Fusion 360 Scripts
 
-## Create standard parameters
+## Table of contents
+* [&nldr;](../)
+* [Create Standard Parameters For 3D Printing](#create-standard-parameters-for-3d-printing)
+
+## Create Standard Parameters For 3D Printing
 
 | Script name & link | Description |
 |:------------------:|-------------|

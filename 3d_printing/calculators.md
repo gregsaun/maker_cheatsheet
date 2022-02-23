@@ -1,10 +1,10 @@
 # 3D Printing Cheat Sheet
 
-## Calculators
+# Calculators
 
 
-
-### Table of contents
+## Table of contents
+* [&nldr;](../)
 * [Extrusion Multiplier](#extrusion-multiplier)
 * [Extruder steps/mm](#extruder-stepsmm)
 * [Part Scaling](#part-scaling)
@@ -13,7 +13,7 @@
 
 
 
-### Extrusion Multiplier
+## Extrusion Multiplier
 
 ![\textit{extrusion multiplier}=\frac{\textit{original extrusion multiplier} \cdot \textit{extrusion width}}{\textit{perimeter thickness}}](img/formula_extrusion_multiplier_01.png)
 
@@ -29,7 +29,7 @@ More information here: [Extrusion multiplier and filament diameter guide](https:
 
 
 
-### Extruder steps/mm
+## Extruder steps/mm
 
 ![\textit{steps per mm}=\frac{\textit{motor steps} \cdot \mathit{\mu step} \cdot \textit{gear ratio}}{\textit{hobb dia} \cdot \pi}](img/formula_steps_per_mm_01.png)
 
@@ -49,12 +49,12 @@ For an 1.8° stepper, 16 micro-stepping configuration, a gear ratio of 50:17 and
 
 
 
-### Part Scaling
+## Part Scaling
 
 As the printed parts are printed warm and then cooldown to room temperature they will shrink in size. The shrinkage depends on the thermal expansion coefficient of the filament material used. Note that filament additives can change the thermal expansion factor of your material.
 
 
-#### Slicer scaling factor
+### Slicer scaling factor
 
 To calculate the scale percentage to use in your slicer to account for shrinkage.
 
@@ -73,7 +73,7 @@ For a PETG part with a bed at 85°C and room temperature at 25°C:
 ![\textit{scale factor}=100(1+60 \cdot 10^{-6} \cdot (85-25))=100.36%](img/formula_scale_factor_example_01.png)
 
 
-#### Printed part size
+### Printed part size
 
 To calculate a dimension after printing and cooldown.
 
@@ -93,7 +93,7 @@ For a PETG part with a width of 50mm,bed at 85°C and room temperature at 25°C:
 ![D_2=\frac{50}{1+60\cdot10^{-6} \cdot (85-25)}=49.82mm](img/formula_part_size_example_01.png)
 
 
-#### Common thermal expansion coefficients
+### Common thermal expansion coefficients
 
 | material | *&alpha;* |
 |:---------|:----------|
@@ -103,7 +103,7 @@ For a PETG part with a width of 50mm,bed at 85°C and room temperature at 25°C:
 
 
 
-### Pulley Diameters
+## Pulley Diameters
 
 Calculations for Gates 2GT and GT3 pulleys. More details here: [Timing Belt and Pulley](../mechanical/timing_belt_pulley.md)
 
@@ -128,7 +128,7 @@ For a GT3 2mm pitch belt and 20T pulley:
 ![od = 12.732 - 2 \cdot 0.254 = 12.224mm](img/formula_pulled_out_dia_example_01.png)
 
 
-### Resources
+## Resources
 
 Resources used for those calculations:
 

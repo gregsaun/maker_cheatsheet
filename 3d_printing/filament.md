@@ -1,17 +1,18 @@
 # 3D Printing Cheat Sheet
 
-## Filament
+# Filament
 
-### Table of contents
+## Table of contents
+* [&nldr;](../)
 * [Mechanical Data](#mechanical-data)
 * [Thermal Data](#thermal-data)
 * [Source](#source)
 
 
-### Mechanical Data
+## Mechanical Data
 
 
-#### Tensile strength
+### Tensile strength
 Amount of pressure that the material can withstand before breaking when being pulled from both ends.
 
   * Other names: tensile yield strength, tensile strength at yield
@@ -20,7 +21,7 @@ Amount of pressure that the material can withstand before breaking when being pu
   * Test method: ISO 527
 
 
-#### Elongation at break
+### Elongation at break
 How much the material stretches before it breaks.
 
   * Other names: tensile elongation
@@ -29,7 +30,7 @@ How much the material stretches before it breaks.
   * Test method: ISO 527
 
 
-#### Flexural Modulus
+### Flexural Modulus
 Amount of pressure required to bend the material.
 
   * Keywords: stiffness, flexibility
@@ -37,7 +38,7 @@ Amount of pressure required to bend the material.
   * Test method: ISO 178
 
 
-#### Tensile Modulus
+### Tensile Modulus
 Amount of pressure required for the material to become deformed.
 
   * Keywords: deformation
@@ -45,22 +46,22 @@ Amount of pressure required for the material to become deformed.
   * Test method: ISO 527
 
 
-#### Impact Strength Charpy
+### Impact Strength Charpy
 
   * Unit: k·J/m<sup>2</sup>
 
 
-#### E-Modulus
+### E-Modulus
 
   * Unit: MPa
 
 
-### Thermal Data
+## Thermal Data
 
-#### Vicat
+### Vicat
 
-#### Heat Deflection Temp
+### Heat Deflection Temp
 
-### Source
+## Source
 
   * https://www.fargo3dprinting.com/read-technical-data-sheet/

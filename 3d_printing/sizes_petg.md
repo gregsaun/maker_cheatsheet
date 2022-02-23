@@ -1,8 +1,9 @@
 # 3D Printing Cheat Sheet
 
-## Sizes For PETG
+# Sizes For PETG
 
-### Table of contents
+## Table of contents
+* [&nldr;](../)
 * [Screw Hole](#screw-hole)
 * [Screw Head Hole](#screw-head-hole)
 * [Self Tapping Hole](#self-tapping-hole)
@@ -11,11 +12,11 @@
 
 
 
-### Screw Hole
+## Screw Hole
 
 Screw hole diameter
 
-#### Socket Head ISO 4762 / DIN 912
+### Socket Head ISO 4762 / DIN 912
 
 | Thread Size | Close Fit (mm) | Standard Fit (mm) |
 |:-----------:|:--------------:|:-----------------:|
@@ -25,18 +26,18 @@ Screw hole diameter
 
 
 
-### Screw Head Hole
+## Screw Head Hole
 
 Hole to fit the screw's head
 
-#### Socket Head ISO 4762 / DIN 912
+### Socket Head ISO 4762 / DIN 912
 
 | Thread Size | Close Fit (mm) | Standard Fit (mm) | Large Fit (mm) | Height (mm) |
 |:-----------:|:--------------:|:-----------------:|:--------------:|:------:|
 | M3  | 5.6 | 5.8 | 6.0  | 3 |
 
 
-#### Button Head ISO 7380
+### Button Head ISO 7380
 
 | Thread Size | Close Fit (mm) | Standard Fit (mm) | Large Fit (mm) | Height (mm) |
 |:-----------:|:--------------:|:-----------------:|:--------------:|:-----------:|
@@ -44,11 +45,11 @@ Hole to fit the screw's head
 
 
 
-### Self Tapping Hole
+## Self Tapping Hole
 
 Hole diameter to use metric screws as self tapping screws.
 
-#### Socket Head ISO 4762 / DIN 912
+### Socket Head ISO 4762 / DIN 912
 
 | Thread Size | Hole Dia (mm) |
 |:-----------:|:-------------:|
@@ -57,11 +58,11 @@ Hole diameter to use metric screws as self tapping screws.
 
 
 
-### Nut Pocket
+## Nut Pocket
 
 Polygon hole to fit a nut
 
-#### Hex DIN 934
+### Hex DIN 934
 
 Diameter of a circle where the polygon (nut) is inscribed.
 
@@ -70,7 +71,7 @@ Diameter of a circle where the polygon (nut) is inscribed.
 | M3  | 6.2 | 6.4 | 2.5 |
 
 
-#### Nylock Locknut DIN 985
+### Nylock Locknut DIN 985
 
 Diameter of a circle where the polygon (nut) is inscribed.
 
@@ -79,7 +80,7 @@ Diameter of a circle where the polygon (nut) is inscribed.
 | M3  | 6.2 | 6.4 | 4.1 |
 
 
-#### Square Nut DIN 562
+### Square Nut DIN 562
 
 | Thread Size | Close Fit (mm) | Standard Fit (mm) | Height (mm) |
 |:-----------:|:--------------:|:-----------------:|:-----------:|
