@@ -3,7 +3,7 @@
 # Techniques
 
 ## Table of contents
-* [&nldr;](../)
+* [&nldr;](../3d_printing/README.md)
 * [Selective Infill](#selective-infill)
 * [Clean Vertical Hole](#clean-vertical-hole)
 * [Sharp Angle](#sharp-angle)

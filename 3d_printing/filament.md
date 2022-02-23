@@ -3,7 +3,7 @@
 # Filament
 
 ## Table of contents
-* [&nldr;](../)
+* [&nldr;](../3d_printing/README.md)
 * [Mechanical Data](#mechanical-data)
 * [Thermal Data](#thermal-data)
 * [Source](#source)

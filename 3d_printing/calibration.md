@@ -3,7 +3,7 @@
 # Calibration
 
 ## Table of contents
-* [&nldr;](../)
+* [&nldr;](../3d_printing/README.md)
 * [Extruder Calibration](#extruder-calibration)
 * [Flow Rate](#flow-rate)
 * [Retraction](#retraction)

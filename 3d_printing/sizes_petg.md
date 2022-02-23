@@ -3,7 +3,7 @@
 # Sizes For PETG
 
 ## Table of contents
-* [&nldr;](../)
+* [&nldr;](../3d_printing/README.md)
 * [Screw Hole](#screw-hole)
 * [Screw Head Hole](#screw-head-hole)
 * [Self Tapping Hole](#self-tapping-hole)
