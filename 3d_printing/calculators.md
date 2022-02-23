@@ -6,7 +6,7 @@
 
 ### Table of contents
 * [Extrusion Multiplier](#extrusion-multiplier)
-* [Extruder steps/mm](#extruder-steps-mm)
+* [Extruder steps/mm](#extruder-stepsmm)
 * [Part Scaling](#part-scaling)
 * [Pulley Diameters](#pulley-diameters)
 * [Resources](#resources)
