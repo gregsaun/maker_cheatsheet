@@ -111,10 +111,10 @@ Where:
 Example:
 
 For a printed part designed to be printed for PETG that you will print in ABS:  
-PETG values: *&alpha;<sub>o</sub>=60&middot; 10<sup>-6</sup> <sup>m</sup>/<sub>mK</sub>, bed temperature=85°C, room temperature=25°C*  
-ABS values: *&alpha;<sub>o</sub>=80&middot; 10<sup>-6</sup> <sup>m</sup>/<sub>mK</sub>, bed temperature=110°C, room temperature=25°C*  
-![s_p=100 \cdot \frac{(1+80 \cdot 10^{-6} \cdot (110-25))}{(1+60 \cdot 10^{-6} \cdot (85-25))}=100.319%](img/formula_scale_factor_diff_material_01_example_01.png)  
-This means that the original part designed for PETG needs to be scaled by 100.319% to be printed with ABS.
+PETG values: *&alpha;<sub>o</sub>=60 &middot; 10<sup>-6</sup> <sup>m</sup>/<sub>mK</sub>, bed temperature=85°C, room temperature=25°C*  
+ABS values: *&alpha;<sub>o</sub>=90 &middot; 10<sup>-6</sup> <sup>m</sup>/<sub>mK</sub>, bed temperature=110°C, room temperature=25°C*  
+![s_p=100 \cdot \frac{(1+90 \cdot 10^{-6} \cdot (110-25))}{(1+60 \cdot 10^{-6} \cdot (85-25))}=100.40%](img/formula_scale_factor_diff_material_01_example_01.png)  
+This means that the original part designed for PETG needs to be scaled by 100.40% to be printed with ABS.
 
 ### Printed part size
 
