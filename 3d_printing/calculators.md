@@ -115,11 +115,11 @@ For a PETG part with a width of 50mm,bed at 85°C and room temperature at 25°C:
 
 | material | *&alpha;* | source |
 |:---------|:----------|:-------|
-| ABS         | 72 to 110 &middot; 10<sup>-6</sup> K<sup>-1</sup> | [1][cte_abs01], [2][cte_common01], [3][cte_common02] |
-| ASA         | 60 to 110 &middot; 10<sup>-6</sup> K<sup>-1</sup> | [1][cte_common02] |
-| PC          | 65 to 70 &middot; 10<sup>-6</sup> K<sup>-1</sup> | [1][cte_pc01], [2][cte_common02] |
-| PETG        | 51 to 68 &middot; 10<sup>-6</sup> K<sup>-1</sup> | [1][cte_petg01], [2][cte_petg02], [3][cte_petg03] |
-| PLA (4043D) | 41 to 68 &middot; 10<sup>-6</sup> K<sup>-1</sup> | [1][cte_pla01], [2][cte_pla02], [3][cte_common02] |
+| ABS         | 72 to 110 &middot; 10<sup>-6</sup> <sup>m</sup>/<sub>mK</sub> | [1][cte_abs01], [2][cte_common01], [3][cte_common02] |
+| ASA         | 60 to 110 &middot; 10<sup>-6</sup> <sup>m</sup>/<sub>mK</sub> | [1][cte_common02] |
+| PC          | 65 to 70 &middot; 10<sup>-6</sup> <sup>m</sup>/<sub>mK</sub> | [1][cte_pc01], [2][cte_common02] |
+| PETG        | 51 to 68 &middot; 10<sup>-6</sup> <sup>m</sup>/<sub>mK</sub> | [1][cte_petg01], [2][cte_petg02], [3][cte_petg03] |
+| PLA (4043D) | 41 to 68 &middot; 10<sup>-6</sup> <sup>m</sup>/<sub>mK</sub> | [1][cte_pla01], [2][cte_pla02], [3][cte_common02] |
 
 
 ## Pulley Diameters
