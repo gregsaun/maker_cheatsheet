@@ -95,20 +95,20 @@ For a PETG part with a bed at 85°C and room temperature at 25°C:
 
 To calculate a dimension after printing and cooldown.
 
-![D_2=\frac{D_1}{1+ \alpha \cdot \Delta_t}](img/formula_part_size_01.png)
+![L_2=\frac{L_1}{1+ \alpha \cdot \Delta_t}](img/formula_part_size_01.png)
 
 Where:
 | variable | description |  unit |
 |:---------|:------------|:-----:|
-| *D<sub>1</sub>* | dimension in CAD or slicer (before printing) | mm |
-| *D<sub>2</sub>* | dimension after printing and cooldown | mm |
+| *L<sub>1</sub>* | length in CAD or slicer (before printing) | mm |
+| *L<sub>2</sub>* | length after printing and cooldown | mm |
 | *&alpha;* | filament material thermal expansion coefficient (see [Common thermal expansion coefficient](#common_thermal_expansion_coefficient) table bellow) | K<sup>-1</sup> |
 | *&Delta;<sub>t</sub>* | difference between the bed temperature and the room temperature |  |
 
 Example:
 
 For a PETG part with a width of 50mm,bed at 85°C and room temperature at 25°C:  
-![D_2=\frac{50}{1+60\cdot10^{-6} \cdot (85-25)}=49.82mm](img/formula_part_size_example_01.png)
+![L_2=\frac{50}{1+60\cdot10^{-6} \cdot (85-25)}=49.82mm](img/formula_part_size_example_01.png)
 
 
 ### Common thermal expansion coefficients
