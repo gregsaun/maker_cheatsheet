@@ -183,7 +183,7 @@ Resources used for those calculations:
   * [PrusaSlicer Perimeters and Layers][prusaslicer_layers_perimeters]
 
 
-[cte_table]: #common-thermal-expansion-coefficient
+[cte_table]: #common-coefficients-of-linear-thermal-expansion
 
 [slic3r_flow_math]: https://manual.slic3r.org/advanced/flow-math
 [prusaslicer_layers_perimeters]: https://help.prusa3d.com/en/article/layers-and-perimeters_1748
