@@ -82,7 +82,7 @@ Where:
 | variable | description |  unit |
 |:---------|:------------|:-----:|
 | *s* | percentage to scale your print part in your slicer | % |
-| *&alpha;* | filament material thermal expansion coefficient (see [table bellow](#common-thermal-expansion-coefficient)) | <sup>m</sup>/<sub>mK</sub> |
+| *&alpha;* | filament material thermal expansion coefficient (see [table bellow][cte_table]) | <sup>m</sup>/<sub>mK</sub> |
 | *&Delta;<sub>t</sub>* | difference between the bed temperature and the room temperature |  |
 
 Example:
@@ -103,8 +103,8 @@ Where:
 | variable | description |  unit |
 |:---------|:------------|:-----:|
 | *s<sub>p</sub>* | percentage to scale your print part in your slicer for a different material than used by the designer | % |
-| *&alpha;<sub>o</sub>* | thermal expansion coefficient of the original filament material used by the designer (see [table bellow](#common-thermal-expansion-coefficient)) | <sup>m</sup>/<sub>mK</sub> |
-| *&alpha;<sub>p</sub>* | thermal expansion coefficient of the filament material used to print your part (see [table bellow](#common-thermal-expansion-coefficient)) | <sup>m</sup>/<sub>mK</sub> |
+| *&alpha;<sub>o</sub>* | thermal expansion coefficient of the original filament material used by the designer (see [table bellow][cte_table]) | <sup>m</sup>/<sub>mK</sub> |
+| *&alpha;<sub>p</sub>* | thermal expansion coefficient of the filament material used to print your part (see [table bellow][cte_table]) | <sup>m</sup>/<sub>mK</sub> |
 | *&Delta;<sub>to</sub>* | difference between the bed temperature and the room temperature of the original filament material used by the designer |  |
 | *&Delta;<sub>tp</sub>* | difference between the bed temperature and the room temperature of the filament material used to print your part |  |
 
@@ -114,7 +114,7 @@ For a printed part designed to be printed for PETG that you will print in ABS:
 PETG values: *&alpha;<sub>o</sub>=60&middot; 10<sup>-6</sup> <sup>m</sup>/<sub>mK</sub>, bed temperature=85°C, room temperature=25°C*  
 ABS values: *&alpha;<sub>o</sub>=80&middot; 10<sup>-6</sup> <sup>m</sup>/<sub>mK</sub>, bed temperature=110°C, room temperature=25°C*  
 ![s_p=100 \cdot \frac{(1+80 \cdot 10^{-6} \cdot (110-25))}{(1+60 \cdot 10^{-6} \cdot (85-25))}=100.319%](img/formula_scale_factor_diff_material_01_example_01.png)  
-This means that the original designed part designed for PETG needs to be scaled by 100.319% to be printed with ABS.
+This means that the original part designed for PETG needs to be scaled by 100.319% to be printed with ABS.
 
 ### Printed part size
 
@@ -127,7 +127,7 @@ Where:
 |:---------|:------------|:-----:|
 | *L<sub>1</sub>* | length in CAD or slicer (before printing) | mm |
 | *L<sub>2</sub>* | length after printing and cooldown | mm |
-| *&alpha;* | filament material thermal expansion coefficient (see [table bellow](#common-thermal-expansion-coefficient)) | <sup>m</sup>/<sub>mK</sub> |
+| *&alpha;* | filament material thermal expansion coefficient (see [table bellow][cte_table]) | <sup>m</sup>/<sub>mK</sub> |
 | *&Delta;<sub>t</sub>* | difference between the bed temperature and the room temperature |  |
 
 Example:
@@ -182,6 +182,8 @@ Resources used for those calculations:
   * [Slic3r Flow Math][slic3r_flow_math]
   * [PrusaSlicer Perimeters and Layers][prusaslicer_layers_perimeters]
 
+
+[cte_table]: #common-thermal-expansion-coefficient
 
 [slic3r_flow_math]: https://manual.slic3r.org/advanced/flow-math
 [prusaslicer_layers_perimeters]: https://help.prusa3d.com/en/article/layers-and-perimeters_1748
