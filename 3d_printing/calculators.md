@@ -63,7 +63,7 @@ Where:
 Example:
 
 For an 1.8° stepper, 16 micro-stepping configuration, a gear ratio of 50:17 and Bondtech 1.75/5.0 drive gears:  
-![\textit{steps per mm}=\frac{200 \cdot 16 \cdot ^{50}/_{17}}{7.22 \cdot \pi}=414.94 \Rightarrow 415](img/formula_steps_per_mm_example_01.png)
+![\textit{steps per mm}=\frac{200 \cdot 16 \cdot ^{50}/_{17}}{7.22 \cdot \pi}=414.94 \Rightarrow 415](img/formula_steps_per_mm_01_example_01.png)
 
 
 
@@ -88,7 +88,7 @@ Where:
 Example:
 
 For a PETG part with a bed at 85°C and room temperature at 25°C:  
-![\textit{scale factor}=100(1+60 \cdot 10^{-6} \cdot (85-25))=100.36%](img/formula_scale_factor_example_01.png)  
+![\textit{scale factor}=100(1+60 \cdot 10^{-6} \cdot (85-25))=100.36%](img/formula_scale_factor_01_example_01.png)  
 This means if you print a part who is 50mm long (in CAD) and want to have it at 50mm in reality, then you have to scale your part by 100.36%.
 
 
@@ -113,7 +113,7 @@ Example:
 For a printed part designed to be printed for PETG that you will print in ABS:  
 PETG values: *&alpha;<sub>o</sub>=60&middot; 10<sup>-6</sup> <sup>m</sup>/<sub>mK</sub>, bed temperature=85°C, room temperature=25°C*  
 ABS values: *&alpha;<sub>o</sub>=80&middot; 10<sup>-6</sup> <sup>m</sup>/<sub>mK</sub>, bed temperature=110°C, room temperature=25°C*  
-![s_p=100 \cdot \frac{(1+80 \cdot 10^{-6} \cdot (110-25))}{(1+60 \cdot 10^{-6} \cdot (85-25))}=100.319%](img/formula_scale_factor_diff_material_example_01.png)  
+![s_p=100 \cdot \frac{(1+80 \cdot 10^{-6} \cdot (110-25))}{(1+60 \cdot 10^{-6} \cdot (85-25))}=100.319%](img/formula_scale_factor_diff_material_01_example_01.png)  
 This means that the original designed part designed for PETG needs to be scaled by 100.319% to be printed with ABS.
 
 ### Printed part size
@@ -133,7 +133,7 @@ Where:
 Example:
 
 For a PETG part with a width of 50mm, bed at 85°C and room temperature at 25°C:  
-![L_2=\frac{50}{1+60\cdot10^{-6} \cdot (85-25)}=49.82mm](img/formula_part_size_example_01.png)
+![L_2=\frac{50}{1+60\cdot10^{-6} \cdot (85-25)}=49.82mm](img/formula_part_size_01_example_01.png)
 
 
 ### Common coefficients of linear thermal expansion
@@ -153,8 +153,8 @@ Calculations for Gates 2GT and GT3 pulleys. More details here: [Timing Belt and 
 
 ![Belt and Pulley Glossary](img/belt_pulley_glossary_01.png)
 
-![pd = \frac{P \cdot N}{\pi}](img/formula_pulled_pitch_dia_01.png)  
-![od = pd - 2 \cdot U](img/formula_pulled_out_dia_01.png)
+![pd = \frac{P \cdot N}{\pi}](img/formula_pulley_pitch_dia_01.png)  
+![od = pd - 2 \cdot U](img/formula_pulley_out_dia_01.png)
 
 Where:
 | variable | description |  unit |
@@ -168,8 +168,8 @@ Where:
 Example:
 
 For a GT3 2mm pitch belt and 20T pulley:  
-![pd = \frac{2 \cdot 20}{\pi} = 12.732mm](img/formula_pulled_pitch_dia_example_01.png)  
-![od = 12.732 - 2 \cdot 0.254 = 12.224mm](img/formula_pulled_out_dia_example_01.png)
+![pd = \frac{2 \cdot 20}{\pi} = 12.732mm](img/formula_pulley_pitch_dia_01_example_01.png)  
+![od = 12.732 - 2 \cdot 0.254 = 12.224mm](img/formula_pulley_out_dia_01_example_01.png)
 
 
 ## Resources
